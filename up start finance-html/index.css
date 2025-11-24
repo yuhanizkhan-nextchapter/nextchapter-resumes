@@ -65,7 +65,7 @@
   display: none;
 }
  
-.navbar-icon10 {
+.navbar-icon1 {
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
 }
@@ -119,7 +119,7 @@
   justify-content: center;
 }
  
-.navbar-icon12 {
+.navbar-icon3 {
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
 }
@@ -152,23 +152,6 @@
  
 .navbar-link2 {
   text-decoration: none;
-}
- 
-.navbar-icon14 {
-  width: var(--dl-layout-size-xsmall);
-  height: var(--dl-layout-size-xsmall);
-  margin-right: var(--dl-layout-space-twounits);
-}
- 
-.navbar-icon16 {
-  width: var(--dl-layout-size-xsmall);
-  height: var(--dl-layout-size-xsmall);
-  margin-right: var(--dl-layout-space-twounits);
-}
- 
-.navbar-icon18 {
-  width: var(--dl-layout-size-xsmall);
-  height: var(--dl-layout-size-xsmall);
 }
  
 .home-fragment15 {
@@ -629,18 +612,19 @@
 }
  
 .home-section1 {
-  height: 728px;
-  padding-top: 1px;
-  padding-bottom: 136px;
+  height: 671px;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-bottom: var(--dl-layout-space-halfunit);
 }
  
 .home-max-width2 {
+  height: 100%;
   align-items: stretch;
 }
  
 .home-hero-image2 {
   width: 717px;
-  height: 766px;
+  height: auto;
   object-fit: contain;
   margin-left: -250px;
   border-radius: 48px;
@@ -648,6 +632,7 @@
  
 .home-content2 {
   width: var(--dl-layout-size-maxwidth);
+  height: auto;
   display: flex;
   margin-left: var(--dl-layout-space-twounits);
   flex-direction: column;
@@ -706,7 +691,7 @@
 .home-title1 {
   font-size: 32px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
 }
  
 .home-title2 {
@@ -1116,7 +1101,9 @@
     font-family: Titillium Web;
   }
   .home-section1 {
-    height: auto;
+    height: 791px;
+    padding-top: 51px;
+    padding-bottom: var(--dl-layout-space-sixunits);
   }
   .home-image3 {
     width: auto;

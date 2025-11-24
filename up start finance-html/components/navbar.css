@@ -61,7 +61,7 @@
   display: none;
 }
  
-.navbar-icon10 {
+.navbar-icon1 {
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
 }
@@ -115,7 +115,7 @@
   justify-content: center;
 }
  
-.navbar-icon12 {
+.navbar-icon3 {
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
 }
@@ -148,23 +148,6 @@
  
 .navbar-link2 {
   text-decoration: none;
-}
- 
-.navbar-icon14 {
-  width: var(--dl-layout-size-xsmall);
-  height: var(--dl-layout-size-xsmall);
-  margin-right: var(--dl-layout-space-twounits);
-}
- 
-.navbar-icon16 {
-  width: var(--dl-layout-size-xsmall);
-  height: var(--dl-layout-size-xsmall);
-  margin-right: var(--dl-layout-space-twounits);
-}
- 
-.navbar-icon18 {
-  width: var(--dl-layout-size-xsmall);
-  height: var(--dl-layout-size-xsmall);
 }
  
 .navbar-fragment1 {
