@@ -790,13 +790,26 @@
 }
  
 .home-content3 {
-  width: 523px;
-  height: 300px;
+  width: auto;
+  height: auto;
+}
+ 
+.home-text29 {
+  font-size: 32px;
 }
  
 .home-title1 {
+  font-size: 32px;
   font-style: normal;
   font-weight: 800;
+}
+ 
+.home-title2 {
+  font-size: 32px;
+}
+ 
+.home-title3 {
+  font-size: 32px;
 }
  
 .home-container8 {
@@ -809,7 +822,7 @@
  
 .home-container10 {
   flex: 0 0 auto;
-  width: 530px;
+  width: auto;
   height: auto;
   display: flex;
   align-items: space-between;
@@ -1198,7 +1211,7 @@
     height: auto;
   }
   .home-image3 {
-    width: 449px;
-    height: 625px;
+    width: auto;
+    height: auto;
   }
 }
